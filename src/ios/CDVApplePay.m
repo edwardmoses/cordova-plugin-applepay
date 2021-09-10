@@ -190,6 +190,8 @@
             [paymentNetworks addObject:PKPaymentNetworkMasterCard];
         } else if ([network isEqualToString:@"amex"]) {
             [paymentNetworks addObject:PKPaymentNetworkAmex];
+        } else if ([network isEqualToString:@"mada"]){
+            [paymentNetworks addObject:PKPaymentNetworkMada];
         }
         // TODO: add the rest
     }
